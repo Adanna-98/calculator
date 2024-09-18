@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
+</head>
+<body>
+    <div class="calculator-container">
+        <div class="calculator-screen">
+            <div>
+                <span>9:41</span>
+                <ul>
+                    <li><i class="ri-rhythm-fill"></i></li>
+                    <li><i class="ri-wifi-line"></i></li>
+                    <li><i class="ri-battery-fill"></i></li>
+                </ul>
+            </div>
+
+            <p><i class="ri-moon-line"></i></p>
+
+            <div class="display-screen">
+                <input type="text" class="display">
+            </div>
+
+            <ul class="button">
+                <li>
+                    <input type="button" value="%" class="percentage white" >
+                    <input type="button" value="7" class="seven">
+                    <input type="button" value="4" class="four">
+                    <input type="button" value="1" class="one">
+                    <input type="reset" value="AC">
+                    
+                    
+                </li>
+    
+                <li>
+                    <input type="button" value="x"  class="multiply white">
+                    <input type="button" value="8" class="eight">
+                    <input type="button" value="5" class="five">
+                    <input type="button" value="2" class="two">
+                    <input type="button" value="0" class="zero">
+                </li>
+    
+                <li>
+                    <button class="white"><i class="ri-divide-fill"></i></button>
+                    <input type="button" value="9" class="nine">
+                    <input type="button" value="6" class="six">
+                    <input type="button" value="3" class="three">
+                    <input type="button" value="." class="dot">
+                    
+                </li>
+    
+                <li class="orange">
+                    <button class="del"><i class="ri-delete-back-2-line"></i></button>
+                    <input type="button" value="-" class="minus">
+                    <input type="button" value="+" class="sum">
+                    <input type="button" value="=" class="equal special" >
+                </li>
+
+                    
+            </ul>
+        </div>
+
+    </div>
+
+    <script>
+        document.querySelector(".percentage").addEventListener("click",function(){
+            let val=document
+            .querySelector(".percentage").getAttribute("value");
+            document.querySelector(".display").value=val 
+        })
+
+        
+        document.querySelector(".seven").addEventListener("click",function
+        (){
+            let val=document
+            .querySelector(".seven").getAttribute("value");
+            document.querySelector(".display").value=val 
+        })
+
+        document.querySelector(".four").addEventListener("click",function
+        (){
+            let val=document
+            .querySelector(".four").getAttribute("value");
+            document.querySelector(".display").value=val 
+        })
+
+        document.querySelector(".one").addEventListener("click",function
+        (){
+            let val=document
+            .querySelector(".one").getAttribute("value");
+            document.querySelector(".display").value=val 
+        })
+
+
+        document.querySelector(".multiply").addEventListener("click",function
+        (){
+            let val=document
+            .querySelector(".multiply").getAttribute("value");
+            document.querySelector(".display").value=val 
+        })
+
+        document.querySelector(".eight").addEventListener("click",function
+        (){
+            let val=document
+            .querySelector(".eight").getAttribute("value");
+            document.querySelector(".display").value=val 
+        })
+
+        document.querySelector(".five").addEventListener("click",function
+        (){
+            let val=document
+            .querySelector(".five").getAttribute("value");
+            document.querySelector(".display").value=val 
+        })
+
+        document.querySelector(".two").addEventListener("click",function
+        (){
+            let val=document
+            .querySelector(".two").getAttribute("value");
+            document.querySelector(".display").value=val 
+        })
+
+        document.querySelector(".zero").addEventListener("click",function
+        (){
+            let val=document
+            .querySelector(".zero").getAttribute("value");
+            document.querySelector(".display").value=val 
+        })
+
+        document.querySelector(".ri-divide-fill").addEventListener("click",function
+        (){
+            let val=document
+            .querySelector(".ri-divide-fill").getAttribute("value");
+            document.querySelector(".display").value=val 
+        })
+
+        document.querySelector(".nine").addEventListener("click",function
+        (){
+            let val=document
+            .querySelector(".nine").getAttribute("value");
+            document.querySelector(".display").value=val 
+        })
+
+        document.querySelector(".six").addEventListener("click",function
+        (){
+            let val=document
+            .querySelector(".six").getAttribute("value");
+            document.querySelector(".display").value=val 
+        })
+
+        document.querySelector(".three").addEventListener("click",function
+        (){
+            let val=document
+            .querySelector(".three").getAttribute("value");
+            document.querySelector(".display").value=val 
+        })
+
+        document.querySelector(".three").addEventListener("click",function
+        (){
+            let val=document
+            .querySelector(".three").getAttribute("value");
+            document.querySelector(".display").value=val 
+        })
+
+        document.querySelector(".dot").addEventListener("click",function
+        (){
+            let val=document
+            .querySelector(".dot").getAttribute("value");
+            document.querySelector(".display").value=val 
+        })
+
+
+
+
+        //let userInput=document.querySelector(".display").value 
+
+
+        </script>
+    
+</body>
+</html>
